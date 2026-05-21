@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  
+  <head>
+    <meta charset="UTF-8"
+  </head>
+  <body>
+    
+    <header>
+      <h1> Recursos Multimidia </h1>
+    </header>
+    
+    <main>
+      <figure>
+        <video controls width="800" height="450" poster="poster-aula.jpg" preload="metadata">
+          <source style="videos/aula-html.mp4" type="video/mp4">
+          <source style="videos/aula-html.webm" type="video/webm">
+          
+          <track src="legendas/aula-html.vtt" kind="subtitles" srclang="pt" label="Português" default>
+          
+          <p>
+            Seu navegador não suporta video. <a href="videos/aula-html.mp4"> Baixe o video aqui. </a>
+            
+          </p>
+        </video>
+        
+        <figcaption> Video introdutorio sobre HTML5. Fonte:material didático do curso. </figcaption>
+      </figure>
+      
+      <figure>
+        <audio controls preload="metadata">
+          <source src="audios/podcast-html.mp3" type="audio/mpeg">
+          <source src="audios/podcast-html.ogg" type="audio/ogg">
+          
+          <p>Seu navegador <i> não</i> suporta audio <a href="audios/podcast-html.mp3"> Baixe o áudio aqui. </a> </p> 
+         </audio>
+      </figure>
+      
+      <figure>
+        <iframe 
+        width="800"
+        height="450"
+        src ="http://www.youtube.com/embed/7m4KxdXHdhY"
+        title="Video do youtube"
+        allowfullscreen>
+          
+        </iframe>
+
+      
+      <figcaption>Curso de html5 - multimidia</figcaption>
+            </figure>
+      
+      <figure>
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://drive.google.com/uc?export=view&id=1PhtBjb60siz4uRMn7rVVa-W-ynDPMZSk">
+    <source media="(max-width: 1200px)" srcset="https://drive.google.com/uc?export=view&id=1PhtBjb60siz4uRMn7rVVa-W-ynDPMZSk">
+    
+    <img src="https://drive.google.com/uc?export=view&id=1PhtBjb60siz4uRMn7rVVa-W-ynDPMZSk" alt="Exemplo de imagem responsiva">
+  </picture>
+
+  <figcaption>
+    Imagem responsiva que se adapta ao tamanho da tela.
+  </figcaption>
+</figure>
+    </main>
+    <footer>
+      <p> Ester Vitória Santos Da Silva | Matricula - 2026304229</p>
+    </footer>
+    
+    
+    
+    
+    
+    
+  </body>
+  
+  
+  
+</html>
