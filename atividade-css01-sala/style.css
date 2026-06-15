@@ -13,11 +13,20 @@ body {
   border-radius:25px;
 }
 
+
 h1{
   text-align: center;
   color:#6a0dad;
  
 }
+
+p {
+  text-aling: center;
+  background-color:f5eeff;
+  border: none;
+  border-radius:100px
+}
+
 label{
   display:block;
   margin-top:15px;
@@ -50,4 +59,11 @@ margin:20px auto 0 auto;
 
 button:hover{
   background-color: #6a0dad
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
 }
