@@ -21,10 +21,9 @@ h1{
 }
 
 p {
-  text-aling: center;
-  background-color:f5eeff;
-  border: none;
-  border-radius:100px
+  text-align: center;
+  color:#6a0dad;
+
 }
 
 label{
