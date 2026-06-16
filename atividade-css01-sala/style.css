@@ -62,11 +62,10 @@ button:hover{
 
 footer {
    background-color:white;
-    color:white;
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    border-top: 7px solid # #5b1ebe;
+    border-top: 7px solid #ccc;
     border-radius:30px;
   
 }
