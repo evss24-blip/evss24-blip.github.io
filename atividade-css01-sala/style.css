@@ -61,12 +61,12 @@ button:hover{
 }
 
 footer {
-   background-color:white;
-    color:#ffffff;
+   background-color:#6a0dad;
+    color:white;
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid # #5b1ebe;
     border-radius:30px;
   
 }
