@@ -33,7 +33,7 @@ label{
   color: #5b1ebe;
 }
 
-input, select, textarea{
+input, select, textarea [type="checkbox"]{
   width: 30%;
   padding: 8px;
   margin-top: 5px;
