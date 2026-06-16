@@ -47,6 +47,12 @@ input, select, textarea [type="checkbox"]{
   margin-top: 5px;
   border: 1px solid #6a0dad;
   border-radius: 50px;
+
+  .termos {
+    display:flex;
+    align-items: center;
+    margin-top:10;
+  }
 }
 button{
   display: block;
