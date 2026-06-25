@@ -1,0 +1,255 @@
+/* ==========================================================
+REFLEXÃO (Bloco 1)
+rem é relativo ao tamanho da fonte do elemento raiz,
+garantindo consistência tipográfica. em é relativo ao
+tamanho da fonte do próprio elemento, ideal para espaços
+internos proporcionais. % depende do elemento pai e é
+indicada para layouts flexíveis e responsivos.
+========================================================== */
+
+/* ---------- Base ---------- */
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+color: #333;
+background-color: #f5f5f5;
+}
+
+/* ---------- Cabeçalho ---------- */
+.cabecalho {
+background-color: #1565c0;
+padding: 2rem;
+}
+
+/* Agrupamento de seletores */
+h1,
+h2,
+h3 {
+font-weight: bold;
+}
+
+h1 {
+color: #fff;
+font-size: 2rem;
+margin: 0;
+}
+
+.subtitulo {
+color: #bbdefb;
+font-size: 1rem;
+}
+
+/* ---------- Menu ---------- */
+.menu ul {
+list-style: none;
+padding: 0;
+margin: 1rem 0 0;
+}
+
+.menu li {
+display: inline-block;
+margin-right: 1.5rem;
+}
+
+/* Descendente */
+.menu a {
+color: #fff;
+font-size: 1rem;
+text-decoration: none;
+transition: 0.3s;
+}
+
+/* Hover */
+.menu a:hover {
+color: #bbdefb;
+}
+
+/* Pseudo-elemento */
+.menu a::before {
+content: "› ";
+}
+
+/* ---------- Seções ---------- */
+.secao {
+padding: 2rem;
+max-width: 60rem;
+margin: 0 auto;
+}
+
+h2 {
+color: #1565c0;
+font-size: 1.5rem;
+}
+
+h3 {
+color: #0d47a1;
+font-size: 1.25rem;
+}
+
+p {
+font-size: 1rem;
+line-height: 1.5;
+}
+
+/* Irmão adjacente (+) */
+h2 + p {
+margin-top: 1rem;
+}
+
+.destaque {
+font-size: 1rem;
+font-weight: bold;
+color: #b71c1c;
+}
+
+/* Irmão geral (~) */
+.destaque ~ p {
+background-color: #fff3e0;
+padding: 0.5rem;
+}
+
+/* ---------- Grade ---------- */
+.cartao {
+display: inline-block;
+width: 28%;
+min-width: 15rem;
+vertical-align: top;
+border: 1px solid #ccc;
+background-color: #fff;
+padding: 1em;
+margin: 0.5em;
+}
+
+/* Zebra
+nth-child() permite alternar estilos sem adicionar
+classes extras ao HTML.
+*/
+.grade .cartao:nth-child(odd) {
+background-color: #ffffff;
+}
+
+.grade .cartao:nth-child(even) {
+background-color: #eef5ff;
+}
+
+/* Todos exceto o último */
+.grade .cartao:not(:last-child) {
+margin-bottom: 1em;
+}
+
+/* ---------- Botão ---------- */
+.botao {
+display: inline-block;
+background-color: #1565c0;
+color: #fff;
+font-size: 1rem;
+text-decoration: none;
+padding: 0.5em 1em;
+margin-top: 0.5em;
+transition: 0.3s;
+}
+
+.botao:hover {
+background-color: #0d47a1;
+}
+
+/* Conflito de especificidade */
+.botao {
+border-radius: 0.25rem;
+}
+
+/* Esta regra prevalece por possuir maior especificidade
+(.cartao .botao > duas classes) */
+.cartao .botao {
+border-radius: 1rem;
+}
+
+/* ---------- Programação ---------- */
+.lista-dias {
+font-size: 1rem;
+line-height: 1.75;
+}
+
+/* Filho direto
+Espaço seleciona qualquer descendente.
+
+«seleciona apenas filhos imediatos.
+*/
+.lista-dias > li {
+font-weight: bold;
+}»
+
+.lista-dias > li:first-child {
+color: #1565c0;
+}
+
+.lista-dias > li:last-child {
+color: #0d47a1;
+}
+
+/* ---------- Formulário ---------- */
+.formulario {
+max-width: 30rem;
+}
+
+label {
+display: block;
+font-size: 1rem;
+margin-top: 1rem;
+}
+
+/* Pseudo-elemento */
+label::after {
+content: " *";
+color: #b71c1c;
+}
+
+/* Agrupamento */
+input,
+textarea {
+display: block;
+width: 100%;
+font-size: 1rem;
+padding: 0.5rem;
+margin-top: 0.25rem;
+border: 1px solid #999;
+box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+outline: none;
+border-color: #1565c0;
+box-shadow: 0 0 0.3rem rgba(21, 101, 192, 0.5);
+}
+
+/* Seletores de atributo */
+input[type="email"] {
+border-left: 4px solid #1565c0;
+}
+
+input[type="password"] {
+border-left: 4px solid #b71c1c;
+}
+
+button {
+font-size: 1rem;
+color: #fff;
+background-color: #1565c0;
+padding: 0.5rem 1.5rem;
+margin-top: 1rem;
+border: 0;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #0d47a1;
+}
+
+
+.rodape {
+background-color: #263238;
+color: #cfd8dc;
+padding: 1.5rem;
+font-size: 0.875rem;
+}
