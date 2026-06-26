@@ -66,7 +66,7 @@ color: #bbdefb;
 
 /* Pseudo-elemento */
 .menu a::before {
-content: "› ";
+content: "› "; 
 }
 
 /* ---------- Seções ---------- */
@@ -177,7 +177,7 @@ Espaço seleciona qualquer descendente.
 */
 .lista-dias > li {
 font-weight: bold;
-}»
+}
 
 .lista-dias > li:first-child {
 color: #1565c0;
