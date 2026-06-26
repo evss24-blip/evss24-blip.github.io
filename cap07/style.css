@@ -175,7 +175,7 @@ Espaço seleciona qualquer descendente.
 
 «seleciona apenas filhos imediatos.
 */
-.lista-dias > li {
+.lista-dias > li: {
 font-weight: bold;
 }
 
