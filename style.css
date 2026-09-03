@@ -25,6 +25,7 @@ main {
 h2 {
   color: #ad1457;
   margin: 15px;
+  display:inline-block;
 }
 
 img {
