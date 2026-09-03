@@ -20,14 +20,14 @@ main {
   margin: 20px auto;
   padding: 5px;
   border-radius: 20px;
-  display: flex;
+
   
 }
 
 h2 {
   color: #ad1457;
   margin: 15px;
-  display:inline-block;
+ 
 }
 
 img {
