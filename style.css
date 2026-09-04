@@ -23,11 +23,18 @@ main {
 
   
 }
+h1 {
+  color: #ffffff;
+}
 
 h2 {
   color: #ad1457;
   margin: 15px;
  
+}
+
+h3{
+    color: #d81b60;
 }
 
 img {
@@ -36,9 +43,28 @@ img {
   margin: 15px;
 }
 
-h3{
-    color: #d81b60;
+.informacoes {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:30px;
+  max-width:600px;
 }
+
+* Texto ao lado da foto */
+.descricao {
+  max-width: 600px;
+}
+
+/* Listas */
+ul {
+  padding: 10px;
+}
+
+li {
+  margin: 8px;
+}
+
 
 footer {
   background-color: #c2185b;
@@ -48,5 +74,15 @@ footer {
   margin-top: 100px;
   width: 100%;
   box-sizing: border-box;
-  margin-top: 30px;
+ 
+}
+
+/* Links */
+a {
+  color: #ad1457;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #e0588a;
 }
