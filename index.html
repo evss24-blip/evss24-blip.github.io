@@ -1,91 +1,97 @@
-<html>
-    <head>
-    <title>Curriculo Ester Vitória </title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css"
-    </head>
-   
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-    <body> 
-         <header>
-    <h1> Ester Vitória Santos Da Silva</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Pessoal — Ester Vitória</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <div class="pagina">
+
+  
+    <header class="cabecalho">
+      <h1>Ester Vitória Santos da Silva</h1>
+      <p>Estudante de Desenvolvimento de Sistemas · IFAL</p>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
     </header>
-   
 
-    <h2>1° ano - Curso Técnico em Desenvolvimento de Sistema </h2>
+    <!-- ====== CONTEÚDO PRINCIPAL ====== -->
+    <main class="principal">
+      <section id="sobre" class="cartao">
+        <h2>Sobre mim</h2>
+     
+        <p>Olá, meu nome é Ester Vitória, sou estudante do Instituto Federal de Alagoas (IFAL), cursando Desenvolvimento de Sistemas. </p>
+      </section>
 
-   
+      <section id="projetos" class="cartao">
+        <h2>Projetos</h2>
+       
+        <div class="projetos">
+          <article class="projeto">
+            <h3>Atividade - Biblioteca</h3>
+            <p>Fiz um formulario simulando emprestimos de livros.</p>
+            <a href="atividade-css01-sala">Atividade - Formulário com css.</a>
+          </article>
+          <article class="projeto">
+            <h3>Atividades - Capitulo 4</h3>
+            <p>Atividades do capitulo quatro:</p>
+                <a href="cap4.atividade1.html"> Atividade 1</a>
+                <a href="cap4.atividade2.html">Atividade 2</a>
+                <a href="cap4.atividade3.html"> Atividade 3</a>
+                <a href="Cap4.atividade4.html"> Atividade 4</a>
+          </article>
+          <article class="projeto">
+            <h3>Atividades - Capitulo 5</h3>
+            <p>As atividades do capitulo cinco:</p>
+            <a href="Cap5.atividade1.html"> Atividade 1</a>
+            <a href="Cap5.atividade2.html"> Atividade 2</a>
+            <a href="Cap5.atividade3.html"> Atividade 3</a>
+            <a href="cap5.atividade4.html"> Atividade 4</a>
+            <a href="cap5.atividade5.html"> Atividade 5</a>
+          </article>
+           <article class="projeto">
+           <h3>Atividade - Refatoração do código</h3>
+            <p>Refatorei o código</p>
+            <a href="cap07/atv01.html">Atividade -  Refatoração do código.</a>
+          </article>
+        
+        </div>
+      </section>
+    </main>
 
-<main>
-        <div class="informacoes">
-              <img src="https://avatars.githubusercontent.com/u/267961123?v=4"
+    <!-- ====== BARRA LATERAL ====== -->
+    <aside class="lateral">
+      <section class="cartao">
+        <h2>Habilidades</h2>
+     
+        <ul class="habilidades">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Infórmatica básica</li>
+        </ul>
+      </section>
 
-width="250" id="foto"
+      <section id="contato" class="cartao">
+        <h2>Contato</h2>
+      
+        <ul class="contato">
+          <li>✉️ <a href="mailto:evss24@aluno.ifal.edu.br">evss24@aluno.ifal.edu.br</a></li>
+          <li>🐙 <a href="https://github.com/evss24-blip">github.com/evss24-blip</a></li>
+        </ul>
+      </section>
+    </aside>
 
-/>
+ 
+    <footer class="rodape">© 2026 Ester Vitória · feito com HTML + CSS Grid</footer>
 
-
-<section>
-    
-      <div class="descricao">
-<h3> Data de nascimento: </h3>
-<p> 08/12/2009 </p>
-</section>
-
-<section>
-<h3>  Descrição pessoal </h3>
-<p> <ul> <li>Olá! Me chamo Ester Vitória. Sou do bairro Prado, em Maceió-AL. Atualmente curso o Técnico em Desenvolvimento de Sistemas no Instituto Federal de Alagoas (IFAL), na turma 911C. Ainda estou no início do curso, mas procuro aprender coisas novas todos os dias e colocar meus conhecimentos em prática. Escolhi essa área porque quero me aprofundar cada vez mais no mundo da tecnologia e desenvolver novas habilidades. </li> </ul> </p>
-</section>
-             </div>
   </div>
+</body>
 
-<section>
-<h3>  Hobbies </h3>
-<p> <ul> <li> Nas minhas horas vagas gosto de fazer diversas coisas como ler livros, principalmente romances suspenses e fantasias. Adoro testar novas receitas enquanto ouço músicas. Gosto de assistir tanto séries, como filmes dos mesmo gêneros que os livros! </li> </ul> </p>
-</section>
-
-<section>
-<h3>  Conhecimentos do curso </h3>
-<ul>
-
-<li> Iniciante em Introduçao á programação </li>
-<li> Iniciante em Programação web</li>
-<li> Iniciante em Fundamentos da informática</li>
-
-</ul>
-</section>
-
-<h3> Meu curso: </h3>
-<p> <ul> <li> O curso Técnico em Desenvolvimento de Sistemas no IFAL (Integrado ao Ensino Médio) forma profissionais para criar, testar e manter sistemas computacionais e banco de dados. Com duração de 3 anos, o foco é em programação, análise de dados e documentação, habilitando para trabalhar em empresas de TI ou como autônomo. </ul> </li> </p> 
-<a href="https://www2.ifal.edu.br" > Saiba mais sobre meu curso </a>
-<h2>Minhas atividades </h2>
-<ul>
-  <li><a href="cap4.atividade1.html"> Cap4. Atividade 1</a></li>
-  <li><a href="cap4.atividade2.html"> Cap4. Atividade 2</a></li>
-  <li><a href="cap4.atividade3.html"> Cap4. Atividade 3</a></li>
-  <li><a href="Cap4.atividade4.html"> Cap4. Atividade 4</a></li>
-</ul>
-    <ul>
-  <li><a href="Cap5.atividade1.html">Cap5. Atividade 1</a></li>
-  <li><a href="Cap5.atividade2.html">Cap5. Atividade 2</a></li>
-  <li><a href="Cap5.atividade3.html">Cap5. Atividade 3</a></li>
-  <li><a href="cap5.atividade4.html">Cap5. Atividade 4</a></li>
-  <li><a href="cap5.atividade5.html">Cap5. Atividade 5</a></li>
-</ul>
-
-    <ul>
-        <li><a href="atividade-css01-sala"> Atividade - Formulário com css. </a></li>
-    </ul>
-
-    <ul>
-        <li><a href="cap07/atv01.html"> Atividade -  Refatoração do código.  </a></li>
-    </ul>
-        
-        
-    </ul>
-</main>
-
-    <footer>
-  <p>Desenvolvido por Ester Vitória Santos da Silva © 2026</p>
-</footer>
 </html>
